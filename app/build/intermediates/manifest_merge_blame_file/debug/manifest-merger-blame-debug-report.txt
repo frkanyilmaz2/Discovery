@@ -1,0 +1,127 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.furkan.discovery"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\furka\Downloads\Compressed\Discovery\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\furka\Downloads\Compressed\Discovery\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->C:\Users\furka\Downloads\Compressed\Discovery\app\src\main\AndroidManifest.xml:5:5-68
+11-->C:\Users\furka\Downloads\Compressed\Discovery\app\src\main\AndroidManifest.xml:5:22-65
+12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+12-->C:\Users\furka\Downloads\Compressed\Discovery\app\src\main\AndroidManifest.xml:6:5-74
+12-->C:\Users\furka\Downloads\Compressed\Discovery\app\src\main\AndroidManifest.xml:6:22-71
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\furka\Downloads\Compressed\Discovery\app\src\main\AndroidManifest.xml:7:5-81
+13-->C:\Users\furka\Downloads\Compressed\Discovery\app\src\main\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->C:\Users\furka\Downloads\Compressed\Discovery\app\src\main\AndroidManifest.xml:8:5-79
+14-->C:\Users\furka\Downloads\Compressed\Discovery\app\src\main\AndroidManifest.xml:8:22-76
+15
+16    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+17    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.firebase:firebase-database:19.2.0] C:\Users\furka\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:25:5-79
+18-->[com.google.firebase:firebase-database:19.2.0] C:\Users\furka\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:25:22-76
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->[com.google.firebase:firebase-database:19.2.0] C:\Users\furka\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:26:5-67
+19-->[com.google.firebase:firebase-database:19.2.0] C:\Users\furka\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:26:22-64
+20
+21    <application
+21-->C:\Users\furka\Downloads\Compressed\Discovery\app\src\main\AndroidManifest.xml:10:5-32:19
+22        android:allowBackup="true"
+22-->C:\Users\furka\Downloads\Compressed\Discovery\app\src\main\AndroidManifest.xml:11:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.1.0] C:\Users\furka\.gradle\caches\transforms-2\files-2.1\331630a23dfa1f0594bcf54d5352aa36\core-1.1.0\AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:hardwareAccelerated="true"
+25-->C:\Users\furka\Downloads\Compressed\Discovery\app\src\main\AndroidManifest.xml:12:9-43
+26        android:icon="@mipmap/ic_launcher"
+26-->C:\Users\furka\Downloads\Compressed\Discovery\app\src\main\AndroidManifest.xml:13:9-43
+27        android:label="@string/app_name"
+27-->C:\Users\furka\Downloads\Compressed\Discovery\app\src\main\AndroidManifest.xml:14:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->C:\Users\furka\Downloads\Compressed\Discovery\app\src\main\AndroidManifest.xml:15:9-54
+29        android:supportsRtl="true"
+29-->C:\Users\furka\Downloads\Compressed\Discovery\app\src\main\AndroidManifest.xml:16:9-35
+30        android:theme="@style/AppTheme" >
+30-->C:\Users\furka\Downloads\Compressed\Discovery\app\src\main\AndroidManifest.xml:17:9-40
+31        <activity android:name="com.example.furkan.discovery.LoginPage" >
+31-->C:\Users\furka\Downloads\Compressed\Discovery\app\src\main\AndroidManifest.xml:18:9-24:20
+31-->C:\Users\furka\Downloads\Compressed\Discovery\app\src\main\AndroidManifest.xml:18:19-44
+32            <intent-filter>
+32-->C:\Users\furka\Downloads\Compressed\Discovery\app\src\main\AndroidManifest.xml:19:13-23:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Users\furka\Downloads\Compressed\Discovery\app\src\main\AndroidManifest.xml:20:17-69
+33-->C:\Users\furka\Downloads\Compressed\Discovery\app\src\main\AndroidManifest.xml:20:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Users\furka\Downloads\Compressed\Discovery\app\src\main\AndroidManifest.xml:22:17-77
+35-->C:\Users\furka\Downloads\Compressed\Discovery\app\src\main\AndroidManifest.xml:22:27-74
+36            </intent-filter>
+37        </activity>
+38        <activity android:name="com.example.furkan.discovery.MainActivity" >
+38-->C:\Users\furka\Downloads\Compressed\Discovery\app\src\main\AndroidManifest.xml:25:9-31:20
+38-->C:\Users\furka\Downloads\Compressed\Discovery\app\src\main\AndroidManifest.xml:25:19-47
+39            <intent-filter>
+39-->C:\Users\furka\Downloads\Compressed\Discovery\app\src\main\AndroidManifest.xml:19:13-23:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\Users\furka\Downloads\Compressed\Discovery\app\src\main\AndroidManifest.xml:20:17-69
+40-->C:\Users\furka\Downloads\Compressed\Discovery\app\src\main\AndroidManifest.xml:20:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\Users\furka\Downloads\Compressed\Discovery\app\src\main\AndroidManifest.xml:22:17-77
+42-->C:\Users\furka\Downloads\Compressed\Discovery\app\src\main\AndroidManifest.xml:22:27-74
+43            </intent-filter>
+44        </activity>
+45
+46        <service
+46-->[com.google.firebase:firebase-database:19.2.0] C:\Users\furka\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:29:9-35:19
+47            android:name="com.google.firebase.components.ComponentDiscoveryService"
+47-->[com.google.firebase:firebase-database:19.2.0] C:\Users\furka\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:30:13-84
+48            android:directBootAware="true"
+48-->[com.google.firebase:firebase-common:19.2.0] C:\Users\furka\.gradle\caches\transforms-2\files-2.1\3280fafdfb2d308e411aff0ec617f560\firebase-common-19.2.0\AndroidManifest.xml:15:13-43
+49            android:exported="false" >
+49-->[com.google.firebase:firebase-database:19.2.0] C:\Users\furka\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:31:13-37
+50            <meta-data
+50-->[com.google.firebase:firebase-database:19.2.0] C:\Users\furka\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:32:13-34:85
+51                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+51-->[com.google.firebase:firebase-database:19.2.0] C:\Users\furka\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:33:17-109
+52                android:value="com.google.firebase.components.ComponentRegistrar" />
+52-->[com.google.firebase:firebase-database:19.2.0] C:\Users\furka\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:34:17-82
+53        </service>
+54
+55        <activity
+55-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\furka\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+56            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+56-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\furka\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+57            android:exported="false"
+57-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\furka\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+58            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+58-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\furka\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+59
+60        <provider
+60-->[com.google.firebase:firebase-common:19.2.0] C:\Users\furka\.gradle\caches\transforms-2\files-2.1\3280fafdfb2d308e411aff0ec617f560\firebase-common-19.2.0\AndroidManifest.xml:19:9-23:39
+61            android:name="com.google.firebase.provider.FirebaseInitProvider"
+61-->[com.google.firebase:firebase-common:19.2.0] C:\Users\furka\.gradle\caches\transforms-2\files-2.1\3280fafdfb2d308e411aff0ec617f560\firebase-common-19.2.0\AndroidManifest.xml:20:13-77
+62            android:authorities="com.example.furkan.discovery.firebaseinitprovider"
+62-->[com.google.firebase:firebase-common:19.2.0] C:\Users\furka\.gradle\caches\transforms-2\files-2.1\3280fafdfb2d308e411aff0ec617f560\firebase-common-19.2.0\AndroidManifest.xml:21:13-72
+63            android:exported="false"
+63-->[com.google.firebase:firebase-common:19.2.0] C:\Users\furka\.gradle\caches\transforms-2\files-2.1\3280fafdfb2d308e411aff0ec617f560\firebase-common-19.2.0\AndroidManifest.xml:22:13-37
+64            android:initOrder="100" />
+64-->[com.google.firebase:firebase-common:19.2.0] C:\Users\furka\.gradle\caches\transforms-2\files-2.1\3280fafdfb2d308e411aff0ec617f560\firebase-common-19.2.0\AndroidManifest.xml:23:13-36
+65
+66        <meta-data
+66-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\furka\.gradle\caches\transforms-2\files-2.1\5e4f37ef9851ca75e09f5ddd39e070e0\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+67            android:name="com.google.android.gms.version"
+67-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\furka\.gradle\caches\transforms-2\files-2.1\5e4f37ef9851ca75e09f5ddd39e070e0\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+68            android:value="@integer/google_play_services_version" />
+68-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\furka\.gradle\caches\transforms-2\files-2.1\5e4f37ef9851ca75e09f5ddd39e070e0\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+69    </application>
+70
+71</manifest>

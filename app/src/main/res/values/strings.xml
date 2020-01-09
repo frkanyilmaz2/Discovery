@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Discovery</string>
+    <string name="ble_uuid">00001802-0000-1000-8000-00805f9b34fb</string>
+    <string name="textview">TextView</string>
+</resources>
